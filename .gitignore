@@ -1,0 +1,42 @@
+# Ignore Maven target directory
+target/
+
+# Ignore IDE specific files
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+
+# Ignore compiled class files
+*.class
+
+# Ignore package files
+*.jar
+*.war
+*.ear
+
+# Ignore log files
+*.log
+
+# Ignore backup and temporary files
+*~
+*.tmp
+*.bak
+*.swp
+
+# Ignore Maven wrapper files (if applicable)
+.mvn/wrapper/maven-wrapper.jar
+
+# Other Maven related files that should not be committed
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Ignore virtual machine crash logs (Java specific)
+hs_err_pid*
