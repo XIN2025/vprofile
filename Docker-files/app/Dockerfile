@@ -1,5 +1,5 @@
 FROM maven:3.9.9-eclipse-temurin-21-jammy AS BUILD_IMAGE
-RUN git clone https://github.com/XIN2025/vprofile/tree/docker
+RUN git clone https://github.com/XIN2025/vprofile.git
 RUN cd vprofile-project && git checkout docker && mvn install
 
 FROM tomcat:10-jdk21
